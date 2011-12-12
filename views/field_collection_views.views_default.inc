@@ -53,6 +53,7 @@ function field_collection_views_views_default_views() {
 	$handler->display->display_options['style_options']['sticky'] = 0;
 	$handler->display->display_options['style_options']['empty_table'] = 0;
 	/* Footer: Global: Text area */
+	/*
 	$handler->display->display_options['footer']['area']['id'] = 'area';
 	$handler->display->display_options['footer']['area']['table'] = 'views';
 	$handler->display->display_options['footer']['area']['field'] = 'area';
@@ -60,6 +61,7 @@ function field_collection_views_views_default_views() {
 	$handler->display->display_options['footer']['area']['content'] = '[nothing_2]';
 	$handler->display->display_options['footer']['area']['format'] = 'filtered_html';
 	$handler->display->display_options['footer']['area']['tokenize'] = 1;
+	*/
 	/* Field: Field-collection item: Field-collection item ID */
 	$handler->display->display_options['fields']['item_id']['id'] = 'item_id';
 	$handler->display->display_options['fields']['item_id']['table'] = 'field_collection_item';
@@ -222,6 +224,7 @@ function field_collection_views_views_default_views() {
 	$handler->display->display_options['fields']['nothing_1']['empty_zero'] = 0;
 	$handler->display->display_options['fields']['nothing_1']['hide_alter_empty'] = 0;
 	/* Field: Global: Custom text */
+	/*
 	$handler->display->display_options['fields']['nothing_2']['id'] = 'nothing_2';
 	$handler->display->display_options['fields']['nothing_2']['table'] = 'views';
 	$handler->display->display_options['fields']['nothing_2']['field'] = 'nothing';
@@ -245,6 +248,7 @@ function field_collection_views_views_default_views() {
 	$handler->display->display_options['fields']['nothing_2']['hide_empty'] = 0;
 	$handler->display->display_options['fields']['nothing_2']['empty_zero'] = 0;
 	$handler->display->display_options['fields']['nothing_2']['hide_alter_empty'] = 0;
+	*/
 	/* Sort criterion: Field-collection item: Field-collection item ID */
 	$handler->display->display_options['sorts']['item_id']['id'] = 'item_id';
 	$handler->display->display_options['sorts']['item_id']['table'] = 'field_collection_item';

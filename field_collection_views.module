@@ -49,9 +49,13 @@ function field_collection_views_field_formatter_view($entity_type, $entity, $fie
       $element[0] = array(
         '#markup' => $content,
       );
+<<<<<<< HEAD
 			if (empty($items)) {
         field_collection_field_formatter_links($element, $entity_type, $entity, $field, $instance, $langcode, $items, $display);
 			}
+=======
+      field_collection_field_formatter_links($element, $entity_type, $entity, $field, $instance, $langcode, $items, $display);
+>>>>>>> b2c06452edcb0973b6181d983f0a48d3f3715a3c
       break;
   }
 
