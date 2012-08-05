@@ -1,5 +1,9 @@
 <?php
-
+/**
+ * @file
+ * Contains the host_entity_path field handler.
+ */
+ 
 /**
  * Field handler to display the host_entity_path
  */
@@ -18,7 +22,7 @@ class field_collection_views_handler_field_host_entity_path extends views_handle
   }
 
   /**
-   * Work out the host_entity_id
+   * Work out the host_entity_path
    */
   function render($values) {
     $host_entity_path = "";
@@ -29,8 +33,8 @@ class field_collection_views_handler_field_host_entity_path extends views_handle
     if (!empty($host_entity_id)) {
       $host_entity_type = $field_collection_item->hostEntityType();
       if (!empty($host_entity_type)) {
-        $host_entitys = entity_load($host_entity_type,array($host_entity_id));
-        if (isset($host_entitys[$host_entity_id])){
+        $host_entitys = entity_load($host_entity_type, array($host_entity_id));
+        if (isset($host_entitys[$host_entity_id])) {
           $host_entity = $host_entitys[$host_entity_id];
           //debug($host_entity);
           //$host_entity = profile2_load($host_entity_id);
