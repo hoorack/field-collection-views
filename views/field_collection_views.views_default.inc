@@ -90,6 +90,6 @@ function field_collection_views_views_default_views() {
   $handler->display->display_options['arguments']['item_id']['summary']['format'] = 'default_summary';
   $handler->display->display_options['arguments']['item_id']['summary_options']['items_per_page'] = '25';
   $handler->display->display_options['arguments']['item_id']['break_phrase'] = TRUE;
-
+  $views[$view->name] = $view;
   return $views;
 }
