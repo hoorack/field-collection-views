@@ -2,6 +2,11 @@
 // $Id$
 
 /**
+ * @file
+ * Contains the field_collection_view view.
+ */
+
+/**
  * Implementation of hook_views_default_views().
  */
 function field_collection_views_views_default_views() {

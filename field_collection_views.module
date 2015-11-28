@@ -49,7 +49,7 @@ function field_collection_views_field_formatter_view($entity_type, $entity, $fie
       $entity_uri = $entity_uri['path'];
       $field_path = 'field-collection/' . strtr($field['field_name'], array('_' => '-'));
       $add_path = $field_path . '/add/' . $entity_uri;
-      $content = views_embed_view($view_name,$display_id,$args, $add_path);
+      $content = views_embed_view($view_name, $display_id, $args, $add_path);
       $element[0] = array(
         '#markup' => $content,
       );
