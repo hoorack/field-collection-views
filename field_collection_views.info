@@ -1,9 +1,8 @@
 name = Field Collection views
 description = Provides a field-collection views formatter.
-core = 7.x
-configure = admin/config/user-interface/field_collection_views
+backdrop = 1.x
+type = module
 dependencies[] = field_collection
-dependencies[] = views
 files[] = views/field_collection_views_handler_field_host_entity_id.inc
 files[] = views/field_collection_views_handler_field_host_entity_path.inc
 files[] = views/field_collection_views_handler_field_field_path.inc
@@ -11,3 +10,11 @@ files[] = views/field_collection_views_handler_field_host_entity_type.inc
 files[] = views/field_collection_views_handler_field_edit_link.inc
 files[] = views/field_collection_views_handler_field_delete_link.inc
 files[] = views/field_collection_views_handler_area_add_link.inc
+project = field_collection_views
+tags[] = views
+tags[] = field collection
+tags[] = formatter
+version = 1.0-beta3+6-dev
+timstamp = 1711195372
+
+

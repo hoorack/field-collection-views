@@ -128,7 +128,7 @@ function field_collection_views_field_formatter_settings_summary($field, $instan
 function field_collection_views_views_api() {
   return array(
     'api' => 3,
-    'path' => drupal_get_path('module', 'field_collection_views') . '/views',
+    'path' => backdrop_get_path('module', 'field_collection_views') . '/views',
   );
 }
 
@@ -140,7 +140,7 @@ function _field_collection_views_views_dropdown_callback($form, $form_state) {
   array_pop($location);
   $location[] = 'display_id';
 
-  $item = drupal_array_get_nested_value($form, $location);
+  $item = backdrop_array_get_nested_value($form, $location);
   return $item;
 }
 
